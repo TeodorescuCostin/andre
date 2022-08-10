@@ -1,0 +1,190 @@
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+  background-color: #151719;
+}
+
+.appAside {
+  width: 35%;
+  background-color: #08f385;
+}
+
+.appForm {
+  width: 50%;
+  background-color: #151719;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.pageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+
+.pageSwitcherItem-active {
+  background-color: #6b5b95;
+  color: white;
+}
+
+.pageSwitcherItem:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.pageSwitcherItem:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.formCenter {
+  margin-top: 150px;
+}
+
+.formFieldTitleRight{
+  display: block;
+  font-weight: 800;
+  font-size: xxx-large;
+  color: #82e2f1;
+}
+
+.formFieldTitleRightSubtitle{
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 69px;
+  font-weight: 600;
+  font-size: large;
+  color: #82e2f1;
+}
+
+.formTitle {
+  color: #707c8b;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.formTitleLink {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.formTitleLink:first-child {
+  margin-left: 0;
+}
+
+.formTitleLink-active {
+  color: white;
+  border-bottom: 1px solid #82e2f1;
+}
+
+.formField {
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.formFieldLabel {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #82e2f1;
+  cursor: default;
+}
+.formFieldInput {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  cursor: copy;
+}
+
+.formFieldInput::placeholder {
+  color: #616e7f;
+}
+
+.formFieldButton {
+  background-color: #82e2f1;
+  color: #151719;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: 0.8em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.formFieldLink {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #6b5b95;
+  padding-bottom: 5px;
+}
+
+.formFieldCheckboxLabel {
+  color: #646f7d;
+  font-size: 0.9em;
+}
+
+.formFieldCheckbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.formFieldTermsLink {
+  color: white;
+  border-bottom: 1px solid #82e2f1;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.socialMediaButtons {
+  padding: 10px 100px 10px 0px;
+}
+
+.sideLogo {
+  display: inline-block;
+}
+
+.sideLogoIcon {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 170px;
+  height: 60px;
+}
+
+.sidePresentation {
+  display: block;
+}
+
+.sidePresentationTitle {
+  display: block;
+  margin-top: 250px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  font-weight: 900;
+  font-size: xxx-large;
+  color:#151719;
+}
+
+.sidePresentationText {
+  display: block;
+  margin: 30px;
+  font-weight: 800;
+  font-size: x-large;
+  color: #151719;
+}
